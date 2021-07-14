@@ -1,0 +1,630 @@
+
+.container-1, .container-2, .container-2-5 ,.container-3 {
+display: flex;
+	}
+	.container-1  {
+		background: black;
+		justify-content: center;
+		align-items:center;
+		margin: 0 auto;
+		height: 590px;
+		width: 590px;
+		position: absolute;
+  		left: 50%;
+	    top: 50%;
+ 		 -webkit-transform: translate(-50%, -50%);
+ 		 -moz-transform: translate(-50%, -50%);
+ 		 -ms-transform: translate(-50%, -50%);
+ 		 -o-transform: translate(-50%, -50%);
+ 		 transform: translate(-50%, -50%);
+	}
+	.container-2  {
+		background: white;
+		justify-content: center;
+		align-items: center;
+		height: 560px;
+		width: 560px;	
+	}
+	.container-2-5  {
+		background: gray;
+		justify-content: center;
+		align-items: center;
+		height: 455px;
+		width: 455px;
+		position: relative;
+		left: -15px;	
+	}
+	.container-3  {
+		background: black;
+		height: 440px;
+		width: 440px;
+		flex-direction: column;
+		flex-wrap: wrap;	
+		align-content: flex-start;
+		
+		
+		
+	}
+	.number-1 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: 180px;
+	}
+	.number-1_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: 180px;
+	}
+	.number-2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: 125px;
+	}
+	.number-2_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: 125px;
+	}
+	.number-3 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: 70px;
+	}
+	.number-3_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: 70px;
+	}
+	.number-4 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: 15px;
+	}
+	.number-4_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: 15px;
+	}
+	.number-5 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: -40px;
+	}
+	.number-5_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: -40px;
+	}
+	.number-6 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: -95px;
+	}
+	.number-6_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: -95px;
+	}
+	.number-7 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: -150px;
+	}
+	.number-7_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: -150px;
+	}
+	.number-8 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: -5px;
+		top: -205px;
+	}
+	.number-8_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		left: 455px;
+		top: -205px;
+	}
+	.letter-1 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 30px;
+	}
+	.letter-1_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 15px;
+	}
+	.letter-2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 85px;
+	}
+	.letter-2_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 70px;
+	}
+	.letter-3 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 140px;
+	}
+	.letter-3_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 125px;
+	}
+	.letter-4 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 195px;
+	}
+	.letter-4_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 180px;
+	}
+	.letter-5 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 250px;
+	}
+	.letter-5_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 235px;
+	}
+	.letter-6 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 305px;
+	}
+	.letter-6_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 290px;
+	}
+	.letter-7 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 355px;
+	}
+	.letter-7_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 340px;
+	}
+	.letter-8 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: -250px;
+		left: 410px;
+	}
+	.letter-8_2 {
+		font-size: 25px;
+		height: 1px;
+		width: 1px;
+		position: relative;	
+		top: 225px;
+		left: 395px;
+	}
+	.block-1 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-2 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-3 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-4 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-5 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-6 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-7 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	   
+	}
+	.block-8 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}
+	.block-9 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}			
+	.block-10 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-11 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-12 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}
+	.block-13 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}
+	.block-14 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}
+	.block-15 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-16 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}
+	.block-17 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-18 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-19 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-20 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}
+	.block-21 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-22 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-23 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-24 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-25 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-26 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-27 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-28 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-29 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-30 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-31 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-32 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-33 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-34 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-35 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-36 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-37 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-38 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-39 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-40 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-41 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-42 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-43 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-44 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-45 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-46 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-47 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-48 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-49 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-50 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-51 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-52 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-53 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-54 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-55 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-56 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-57 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-58 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-59 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-60 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-61 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-62 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-63 {
+	   background: gray;
+	   height: 55px;
+	   width: 55px;
+	}	
+	.block-64 {
+	   background: white;
+	   height: 55px;
+	   width: 55px;
+	}	
